@@ -1,0 +1,24 @@
+###
+
+# curl http://127.0.0.1:8000/api/subjects/
+GET http://127.0.0.1:8000/api/subjects/
+
+###
+
+# curl http://127.0.0.1:8000/api/subjects/1/
+GET http://127.0.0.1:8000/api/subjects/1/
+
+###
+
+# curl -i -X POST http://127.0.0.1:8000/api/courses/1/enroll/
+POST http://127.0.0.1:8000/api/courses/2/enroll/
+
+###
+
+
+
+# curl -i -X POST -u aGFlazpoYWVr http://127.0.0.1:8000/api/courses/1/enroll/
+POST http://127.0.0.1:8000/api/courses/7/enroll/
+Authorization: Basic aGFlazpoYWVr
+###
+

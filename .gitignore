@@ -1,0 +1,9 @@
+.venv
+.idea/
+.idea_modules/
+.env
+__pycache__/
+*.pyc
+*.iml
+.logs
+/logs
