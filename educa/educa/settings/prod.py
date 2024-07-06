@@ -3,7 +3,7 @@ from .base import *
 DEBUG = False
 
 ADMINS = [('haek', 'az0972507926@gmail.com')]
-ALLOWED_HOSTS = ['.educaproject.com']
+ALLOWED_HOSTS = ['.educaproject.com', 'educaproject.herokuapp.com']
 
 DATABASES = {
     'default': {
